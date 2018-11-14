@@ -1,2 +1,2 @@
 # Basic-Portfolio
-First HTML project fr class
+First HTML project for class
