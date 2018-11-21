@@ -2,13 +2,25 @@
     box-sizing: border-box;
 }
 
-header {
+.topbar {
+    margin-top: 0;
     background: white;
-    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     height: 90px;
+    border-bottom: lightgray;
     border-bottom-style: solid;
-    border-bottom-color: lightgray;
+}
+
+.topcontainer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-tc {
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #title {
@@ -20,13 +32,12 @@ header {
     line-height: 50px;
     color: white;
     float: left;
-    margin-left: 360px;
     margin-top: 0%;
 }
 
-body { 
-    margin:0px; 
-    padding:0px;
+body {
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
 }
 
@@ -59,18 +70,15 @@ a:visited {
     padding: 4px;
 }
 
-
 #navmenu {
     background: white;
     font-family: Arial, Helvetica, sans-serif;
-    width: 400px;
+    width: 360px;
     height: 80px;
     margin-top: 0;
     line-height: 100px;
     font-size: 18px;
-    text-decoration: none;
-    margin-left: 22%;
-    float: left;
+    float: right;
 }
 
 .container {
@@ -83,10 +91,20 @@ a:visited {
     padding: 30px;
 }
 
+.contact-container {
+    width: 740px;
+    height: 650px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 30px;
+}
+
 #about-me {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    color: #4aaaa5;    
+    color: #4aaaa5;
     border-bottom-style: solid;
     border-bottom-color: lightgray;
     margin-bottom: 20px;
@@ -105,7 +123,7 @@ img {
 #contact {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    color: #4aaaa5;    
+    color: #4aaaa5;
     border-bottom-style: solid;
     border-bottom-color: lightgray;
     margin-bottom: 20px;
@@ -114,7 +132,7 @@ img {
 #portfolio {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    color: #4aaaa5;    
+    color: #4aaaa5;
     border-bottom-style: solid;
     border-bottom-color: lightgray;
     margin-bottom: 20px;
@@ -147,9 +165,9 @@ button {
 }
 
 .row1 {
-     width: 100%;
-     float: left;
-     padding-bottom: 10px;
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
 }
 
 .row2 {
